@@ -1,0 +1,91 @@
+/* Container Styles */
+.login-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Form Styles */
+.email-password-signin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-password-signin-form div {
+  margin-bottom: 1rem;
+}
+
+.email-password-signin-form label,
+.email-password-signin-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.email-password-signin-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button Styles */
+.email-signin-btn, .google-signin-btn {
+  padding: 0.75rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: white;
+  width: 100%;
+}
+
+.email-signin-btn {
+  background-color: #007bff;
+}
+
+.email-signin-btn:hover {
+  background-color: #0056b3; /* Darker shade of blue for hover state */
+}
+
+.google-signin-btn {
+  background-color: #d25348;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-signin-btn img {
+  margin-right: 8px;
+  width: 20px;
+}
+
+/* Additional Styles */
+.login-container p,
+.login-container a {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+.forgot-password-link {
+
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0;
+  margin-top: 0.5rem;
+  text-align: center;
+  
+}
